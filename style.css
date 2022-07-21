@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}      
+body {
+    background-color: #fafafa;
+    overflow-y: scroll;
+}
+.principal {
+    align-items: stretch;
+    display: flex;
+    justify-content: center;
+    margin: 32px auto 0;
+    max-width: 935px;
+    height: 717px;
+    padding-bottom: 32px;
+}
+.imagem-celular {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+    background-position: -46px 0;
+    background-size: 468.32px 634.15px;
+    -webkit-flex-basis: 380.32px;
+    -ms-flex-preferred-size: 380.32px;
+    flex-basis: 380.32px;
+    height: 581.15px;
+    margin-bottom: 12px;
+    margin-right: 32px;
+}
+.fotos-insta {
+    margin: 27px 0 0 113px;
+    position: relative;
+}
+.continuar-logado {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+    margin-top: 12px;
+    height: 673px;
+    margin-bottom: 0;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    border-radius: 1px;
+    position: relative;
+    width: 350px;
+    height: 353px;
+}   
+.foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.foto-perfil img {
+    height: 6rem;
+}
+.botao-azul {
+    background-color: #0095f6;
+    color: #fff;
+    font-weight: bold;
+}
+.botao {
+    border: none;
+    border-radius: 4px;
+    padding: 7px 20px;  
+}
+.continuar-logado span{
+    color: #0095f6;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 0;
+}
+.links {
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+}
+.links a {
+    padding: 10px 5px;
+    color: #8e8e8e;
+    font-size: 13px;
+    text-decoration: none;
+}
+.links select, .links span{
+    border: none;
+    color: #8e8e8e;
+    font-size: 13px;
+    background-color: #fafafa;
+    font-family: 'Times New Roman', Times, serif;
+}
+
